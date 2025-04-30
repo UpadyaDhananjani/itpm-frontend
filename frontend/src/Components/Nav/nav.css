@@ -1,0 +1,44 @@
+/* nav.css */
+
+.home-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #555454;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .home-ll {
+    display: inline;
+  }
+  
+  .home-a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    border-radius: 8px;
+  }
+  
+  .home-a:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  .active {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 25px;
+  }
+  
