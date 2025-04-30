@@ -1,0 +1,181 @@
+/* Additional Horizontal Menu Bar (Above the Top Navigation) */
+.additional-menu-bar {
+    width: 100%;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    box-shadow: 0 2px 5px rgba(6, 4, 4, 0.74);
+  }
+  
+  .additional-menu {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .additional-menu a {
+    text-decoration: none;
+    color: rgb(3, 1, 1);
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .additional-menu a:hover {
+    color: rgb(223, 223, 223);
+  }
+  
+  /* Horizontal Line Styling */
+  .horizontal-line {
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 9px;
+  }
+  
+  /* Top Navigation Menu Bar */
+  .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.93), rgba(152, 152, 152, 0.87));
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15px;
+    box-shadow: 0px 2px 10px rgba(231, 0, 0, 0.46);
+    z-index: 1000;
+  }
+  
+  .top-bar h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .top {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .top a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .top a:hover {
+    color: #ff0000;
+  }
+  
+  /* Sidebar Navigation Container */
+  .Home-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    height: calc(100vh - 120px);
+    width: 250px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.81), rgba(55, 52, 52, 0.75));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 3px 0 10px rgba(198, 170, 170, 0.3);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Style for each menu item - Reduced height */
+  .home-11 {
+    width: 90%;
+    text-align: center;
+    padding: 8px 12px; /* Reduced padding */
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Style for links */
+  .home-a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6px 0; /* Reduced padding */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .home-a i {
+    margin-right: 7px;
+  }
+  
+  /* Hover Effects */
+  .home-11:hover {
+    background: rgba(255, 255, 255, 0);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  /* Active Menu Item */
+  .Active {
+    background: rgb(0, 0, 0);
+    border-left: 6px solid rgb(224, 220, 220);
+    animation: activePulse 0.3s ease-in-out;
+  }
+  
+  /* Animation for Active Link */
+  @keyframes activePulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Bottom Bar */
+  .bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 20px;
+    background: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px -2px 10px rgba(224, 224, 224, 0.3);
+    z-index: 1000;
+  }
+  
+  /* Author Bar - Optional - Positioned above the bottom bar */
+  .author-bar {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    z-index: 1000;
+  }
