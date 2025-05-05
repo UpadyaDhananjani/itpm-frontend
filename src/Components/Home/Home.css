@@ -1,0 +1,48 @@
+
+
+/* Style the header in Home */
+.home-container h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255); /* Set header text color to white */
+}
+
+/* Add a rectangle below the header in Home */
+.home-container .welcome-rectangle {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background */
+  padding: 20px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: rgb(253, 236, 236); /* Dark color for the text inside the rectangle */
+}
+
+/* Ensure the image inside the container is responsive */
+.home-container .home-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Make sure the page fills the entire screen and text is centered */
+.home-container .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add some media query for responsiveness */
+@media (max-width: 768px) {
+  .home-container h1 {
+    font-size: 2.5rem;
+  }
+  .home-container .welcome-rectangle {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+  }
+}
