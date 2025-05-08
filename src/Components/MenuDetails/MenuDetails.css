@@ -1,10 +1,16 @@
-/* Apply background image */
+/* MenuDetails.css - Full page background implementation */
+
+/* Full page background */
 body {
-  background: url("../Img/Menu..6.jpg") no-repeat center center fixed;
-  background-size: cover;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../Img/Menu4.jpg'); /* Root-based path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 /* Loading and Error States */
@@ -28,6 +34,16 @@ body {
   background-color: rgba(255, 255, 255, 0.95);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Page Header */
+h2 {
+  text-align: center;
+  color: #111416;
+  margin-bottom: 20px;
+  font-size: 28px;
 }
 
 /* Search Bar */
@@ -67,6 +83,11 @@ body {
   background-color: #4CAF50;
   padding: 12px 24px;
   font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .report-button:hover {
@@ -87,17 +108,19 @@ body {
 .meal-table th, .meal-table td {
   padding: 12px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee7e7b4;
+}
+.meal-table th {
+  background-color: #0d121600;
+  color: white;
 }
 
-.meal-table th {
-  background-color: #2c3e50;
-  color: white;
-  font-weight: 600;
+.meal-table td {
+  color: #000; 
 }
 
 .meal-table tr:hover {
-  background-color: #f5f5f5;
+  background-color: #1912123e;
 }
 
 /* Table Cells */
@@ -195,6 +218,7 @@ button {
   
   .menudetails-container {
     padding: 10px;
+    margin: 10px;
   }
   
   .chart-container {

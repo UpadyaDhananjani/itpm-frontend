@@ -1,3 +1,15 @@
+
+.menu-body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../Img/Menu4.jpg'); /* Root-based path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
 .menu-form-container {
   width: 100%;
   max-width: 500px;
