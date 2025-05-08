@@ -6,6 +6,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import "./MenuDetails.css";
 
+
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const MenuDetails = () => {
