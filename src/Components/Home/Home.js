@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from '../Nav/Nav';  // Ensure this path is correct
-import './Home.css'; // Import the CSS file
-
+import './Home.css'; 
 function Home() {
   return (
     <div>
