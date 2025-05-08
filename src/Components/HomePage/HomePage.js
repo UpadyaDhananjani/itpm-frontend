@@ -10,7 +10,7 @@ const App = () => {
     { name: 'RISOTTO & MUSHROOMS', price: '$45', description: 'Served with persillade and aromatic herbs' },
   ];
 
-  // Inline styles for the hero section background image
+ 
   const heroSectionStyle = {
     backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Img/Menu1.jpg")',
     backgroundRepeat: 'no-repeat',

@@ -6,8 +6,8 @@
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically */
-  align-items: center;     /* Center content horizontally */
+  justify-content: center; 
+  align-items: center;   
 }
 
 .nav-links-wrapper {

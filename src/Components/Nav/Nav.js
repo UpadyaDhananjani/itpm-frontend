@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-// ✅ Ensure all file names are correct and exist in /src/Img
+
 import menu1 from "../Img/Menu2.jpg";
 import menu2 from "../Img/Menu1.jpg";
 import menu3 from "../Img/Menu3.jpg";

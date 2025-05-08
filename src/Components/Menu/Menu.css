@@ -2,7 +2,7 @@
 .menu-body {
   margin: 0;
   padding: 0;
-  background-image: url('../Img/Menu4.jpg'); /* Root-based path */
+  background-image: url('../Img/Menu4.jpg'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

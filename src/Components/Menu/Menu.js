@@ -256,8 +256,7 @@ const AddMenuForm = () => {
   />
   {formData.image && (
     <img
-      src={URL.createObjectURL(formData.image)} // This should generate the preview URL
-      alt="Preview"
+      src={URL.createObjectURL(formData.image)} 
       style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '8px', marginTop: '8px' }}
     />
   )}
